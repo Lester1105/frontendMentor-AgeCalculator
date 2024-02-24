@@ -15,15 +15,18 @@
 body{
     background-color: var(--off-white);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-container{
     display: flex;
     flex-direction: column;
     background-color:white;
-    width: 400px;
+    width: 600px;
     height: auto;
-    margin: 50px auto;
     padding: 25px;
+    margin-bottom: 50px;
     border-radius: 10px;
     border-bottom-right-radius: 80px;
     position: relative;
@@ -80,6 +83,7 @@ small{
 .output{
     font-weight: 800;
     font-style: italic;
+    margin-bottom: 50px;
 }
 .output span{
     color: var(--purple);
